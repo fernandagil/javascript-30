@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: #F2EDD9;
     color: #444;
     text-align: center;
@@ -7,21 +9,75 @@ body {
 .header-div {
     background-color: #FBD266;
     padding: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .description-div {
     background-color: #D76735;
     color: #FAFAFA;
     padding: 30px 10px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
-.challenges-div {
+.challenges-div, .challenge-div {
     background-color: #8FB0A9;
 }
 
 .challenge-card {
     background-color: #C7D3C9;
     margin: 20px 5px;
+    padding: 30px 10px;
 }
+
+.day-title-div {
+    color: #D76735;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.day-title-div h1 {
+    font-size: 50px;
+}
+  
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.key {
+    border: 2px solid #C7D3C9;
+    border-radius: .5rem;
+    margin: 8px;
+    font-size: 1.2rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    min-width: 110px;
+    text-align: center;
+    color: #D76735;
+    background: rgba(212, 212, 212, 0.4);
+    text-shadow: 0 0 .2rem #8FB0A9;
+}
+  
+.playing {
+    transform: scale(1.1);
+    border-color: #FBD266;
+    box-shadow: 0 0 1rem #FBD266;
+}
+  
+kbd {
+    display: block;
+    font-size: 4rem;
+    background-color: #F2EDD9;
+    color: #8FB0A9;
+    margin-bottom: 10px;
+}
+  
+.sound {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #444;
+}
+  
