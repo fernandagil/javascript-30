@@ -28,6 +28,14 @@ body {
     color: #D76735;
 }
 
+.header-div h1:hover {
+    text-shadow: 2px 2px 5px #DC8C64;
+}
+
+.sm-header-div a:hover {
+    text-shadow: 2px 2px 5px #DC8C64;
+}
+
 .header-div a {
     text-decoration: none;
 }
@@ -49,6 +57,17 @@ body {
     margin-bottom: 30px;
 }
 
+.description-div a {
+    text-decoration: none;
+    color: #FAFAFA;
+    font-weight: bold;
+}
+
+.description-div a:hover {
+    color: #FBD266;
+    font-weight: bolder;
+}
+
 .challenges-div, .challenge-div {
     background-color: #8FB0A9;
     padding: 30px;
@@ -59,6 +78,7 @@ body {
     background-color: #C7D3C9;
     margin: 20px 5px;
     padding: 30px 10px;
+    letter-spacing: 1px;
 }
 
 .challenge-card a {
@@ -68,10 +88,12 @@ body {
 
 .challenge-card:hover {
     border: 4px double #FBD266;
+    color: #D76735;
 }
 
 .challenge-card a:hover {
-    color: #D76735;
+    color: #DC8C64;
+    text-shadow: 2px 2px 5px #DC8C64;
 }
 
 .day-title-div {
