@@ -88,13 +88,12 @@ body {
 }
 
 .challenge-card:hover {
-    border: 4px double #FBD266;
+    border: 4px solid #FBD266;
     color: #D76735;
 }
 
 .challenge-card a:hover {
     color: #DC8C64;
-    text-shadow: 2px 2px 5px #DC8C64;
 }
 
 .day-title-div {
