@@ -78,8 +78,9 @@ body {
     font-family: 'Shrikhand', cursive;
     background-color: #C7D3C9;
     margin: 20px 5px;
-    padding: 30px 10px;
+    padding: 20px 10px;
     letter-spacing: 1px;
+    height: 120px;
 }
 
 .challenge-card a {
@@ -94,6 +95,11 @@ body {
 
 .challenge-card a:hover {
     color: #DC8C64;
+}
+
+.challenge-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
 .day-title-div {
