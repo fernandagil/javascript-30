@@ -203,3 +203,19 @@ kbd {
     height: 8px;
     background: #DC8C64;
 }
+
+/* ------------------------------------ DAY 3 STYLE */
+
+.controls {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100px;
+}
+
+.img-day3 img {
+    max-width: 70%;
+    max-height: auto;
+    padding: 10px 30px;
+}
