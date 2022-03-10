@@ -13,6 +13,14 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.code {
+    font-size: .8em;
+    font-weight: 400;
+    background: #C7D3C9;
+    padding: 4px;
+    line-height: 1em;
+}
+
 .header-div, .sm-header-div {
     background-color: #FBD266;
 }
